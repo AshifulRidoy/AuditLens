@@ -1,4 +1,4 @@
-# AuditLens- Why Was This Loan Approved? 💳
+# AuditLens- Why Was This Loan Approved? 
 
 ## Explainable, Regulator-Ready Credit Risk Decision System
 
@@ -7,33 +7,33 @@
 
 A production-ready credit risk assessment system that demonstrates how to build **explainable AI** for financial services while maintaining regulatory compliance. Every decision comes with clear explanations, actionable guidance, and fairness monitoring.
 
-## 🎯 Project Vision
+##  Project Vision
 
 This project bridges the gap between high-performance machine learning and regulatory compliance by embedding explainability at every layer of the credit decision process. It serves as both a functional credit risk platform and a reference architecture for responsible AI in regulated environments.
 
-## ✨ Key Features
+##  Key Features
 
-### 🔍 **Full Explainability**
+###  **Full Explainability**
 - **SHAP-based explanations**: Game-theoretic feature attribution for every decision
 - **Human-readable reason codes**: Plain language explanations without technical jargon
 - **Global & local insights**: Understand both overall model behavior and individual decisions
 
-### 🎯 **Actionable Guidance**
+###  **Actionable Guidance**
 - **Counterfactual explanations**: Shows exactly what would need to change for a different outcome
 - **Respects immutable constraints**: Never suggests changing age, credit history, or other unchangeable factors
 - **Minimal-change optimization**: Identifies the smallest set of realistic changes
 
-### ⚖️ **Fairness & Compliance**
+###  **Fairness & Compliance**
 - **Automated bias detection**: Monitors fairness metrics across protected attributes
 - **Audit trails**: Complete documentation for regulatory review
 - **Dual model approach**: Interpretable baseline + high-performance ML
 
-### 🚀 **Production-Ready**
+###  **Production-Ready**
 - **Free-tier deployment**: Runs on Streamlit Cloud, Heroku, or AWS free tier
 - **Fast response times**: <3 seconds for complete decision + explanation
 - **Comprehensive testing**: Unit tests and acceptance criteria validation
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -66,7 +66,7 @@ This project bridges the gap between high-performance machine learning and regul
 └─────────────────────────────────────────────────────────────┘
 ```
 
-## 📊 Performance Metrics
+## Performance Metrics
 
 | Model | AUC | Accuracy | Precision | Recall | F1 |
 |-------|-----|----------|-----------|--------|-----|
@@ -75,7 +75,7 @@ This project bridges the gap between high-performance machine learning and regul
 
 *All models meet or exceed acceptance criteria defined in the PRD.*
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -115,7 +115,7 @@ The application will open in your browser at `http://localhost:8501`
 python scripts/train_models.py
 ```
 
-## 💻 Usage Examples
+##  Usage Examples
 
 ### 1. Submit a Credit Application
 
@@ -152,7 +152,7 @@ Check **Fairness Analysis** for:
 - Disparate impact ratios
 - Equal opportunity differences
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 credit_risk_explainer/
@@ -181,7 +181,7 @@ credit_risk_explainer/
 └── README.md                  # This file
 ```
 
-## 🔬 Technical Details
+##  Technical Details
 
 ### Models
 
@@ -215,7 +215,7 @@ credit_risk_explainer/
 - **Disparate Impact**: Ratio of approval rates
 - **Equal Opportunity**: True positive rate difference
 
-## 📋 Acceptance Criteria
+##  Acceptance Criteria
 
 | Criterion | Target | Status |
 |-----------|--------|--------|
@@ -227,7 +227,7 @@ credit_risk_explainer/
 | UI Response Time | < 3 seconds | ✅ |
 | Documentation | Complete | ✅ |
 
-## 🎓 Use Cases
+##  Use Cases
 
 ### For Credit Applicants
 - Understand why you were approved/rejected
@@ -244,33 +244,9 @@ credit_risk_explainer/
 - Access audit trails for regulatory review
 - Review fairness metrics and bias analysis
 
-## 🤝 Contributing
 
-Contributions are welcome! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
-## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
 
-- Built on open-source libraries: scikit-learn, LightGBM, SHAP, Streamlit
-- Inspired by responsible AI principles and regulatory frameworks
-- Dataset based on publicly available credit risk data
 
-## 📞 Contact
-
-For questions or feedback:
-- Open an issue on GitHub
-- Email: [your-email@example.com]
-
-## 🔗 Links
-
-- [Documentation](docs/)
-- [Technical Specification](docs/TECHNICAL_SPEC.md)
-- [Model Card](docs/MODEL_CARD.md)
-- [Governance Report](docs/GOVERNANCE_REPORT.md)
-
----
-
-**Disclaimer**: This is a demonstration project for portfolio and educational purposes. It is not intended for production credit decisions without proper validation, testing, and regulatory approval.
